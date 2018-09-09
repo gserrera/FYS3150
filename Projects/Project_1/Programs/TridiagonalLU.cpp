@@ -73,3 +73,11 @@ int main(int argc, char *argv[]) {
 			double RelativeError = fabs((exact(xval) - solution[i]) / exact(xval));
 			ofile << setw(15) << setprecision(8) << xval;
 			ofile << setw(15) << setprecision(8) << solution(i);
+			ofile << setw(15) << setprecision(8) << exact(xval);
+			ofile << setw(15) << setprecision(8) << log10(RelativeError) << endl;
+		}
+		ofile.close();
+	}
+
+	return 0;
+}
