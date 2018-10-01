@@ -1,0 +1,4 @@
+The Benchmark folder contains a couple of selected results files obtained for the three cases studied in this project. 
+Inside the Programs folder you will find another folder called "UnitTests", which contains the Jacobi algorithm alongside
+some test functions and a program that automatically creates a main function to run those tests. Outside that folder, you 
+will find the Jacobi algorithm alongside a custom main function and the armadillo-algorithm program.
