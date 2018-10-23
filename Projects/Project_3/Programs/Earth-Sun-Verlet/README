@@ -1,0 +1,2 @@
+In order to perform the unit test, omit the main file.
+In order to perform the actual calculation, omit the test-main and test-function files and include the main file.
