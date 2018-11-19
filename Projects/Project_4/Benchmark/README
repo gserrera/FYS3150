@@ -1,4 +1,4 @@
-This benchmark calculations were done with:
+These benchmark calculations were done with:
 
 - 10000000 cycles for the 2x2 lattice
 - 1000000 cycles for the 40, 60, 80, and 100 square lattices
