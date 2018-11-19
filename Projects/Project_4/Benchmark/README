@@ -1,0 +1,7 @@
+This benchmark calculations were done with:
+
+- 10000000 cycles for the 2x2 lattice
+- 1000000 cycles for the 40, 60, 80, and 100 square lattices
+- 100000 cycles for the 20x20 lattice (Random10_20 for an initial random lattice at T = 1.0 and Oriented24_20 for an initial oriented matrix at T = 2.4)
+
+I do not recommend to benchmark the 80x80 and 100x100 lattices with 1000000 cycles as it takes too much time.
