@@ -4,4 +4,3 @@ The NoParallel_Ising program runs the Metropolis algorithm without parallelizati
 The Parallel_Ising program does the same but with parallelization.
 The AcceptedConfigurationsperCycle program gives: energy and its variance, magnetization and number of accepted configuration per MC cycle.
 The TotalAcceptedConfigurations program gives final values and total number of accepted configuration for the total number of MC cycles.
-The Unit Test program runs the NoParallel_Ising program for a 2x2 lattice at T=1.0 and compares results with analytical results.
