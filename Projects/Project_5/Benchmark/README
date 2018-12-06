@@ -1,1 +1,4 @@
 
+The 2d_small and 2d_large files contain the results from the 2D PDE in a matrix form for a small and large times, respectively; with step sizes Delta x = 0.01 and Delta t = 1/40000.
+The badlarge file containes the results from the 2D PDE in a matrix form for a large time, but with a value of alpha over 1/4 (Delta x = 0.01 and Delta t = 1/39000).
+The other files contain the results from the 1D solvers, named by their method and the Delta x used (0.1 in this case). The value of Delta t chosen is the highest possible value for the explicit scheme to be stable (1/20000 in this case).
