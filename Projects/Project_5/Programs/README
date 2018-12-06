@@ -1,1 +1,4 @@
 
+The 1dimensional program solves the 1D PDE with one of the three methods at the user's choice and prints the solution for every time step to a file.
+The 2dimensional program solves the 2D PDE with the explicit scheme only (step sizes have to be set in the program text) and prints the solution in the same fashion as the 1D program.
+The 2dimensionalMatrix program also solves the 2D PDE with the explicit scheme, but will only print, in two separate files in a matrix form; the results for a large and a small times.
