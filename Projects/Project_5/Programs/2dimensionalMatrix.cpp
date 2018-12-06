@@ -18,14 +18,14 @@ int main() //Main program. Prints result matrix for two different times.
 	cout << "Introduce the name of the output file for a large time result: ";
 	cin >> filename2;
 	int n = 99;
-	int tsteps = 39000;
+	int tsteps = 40000;
 	int tsmall = tsteps / 1000;
 	int tlarge = tsteps * 3 / 4;
-	double alpha = ((double)10000) / ((double)39000);
+	double alpha = (n+1)*(n+1)/ ((double)tsteps);
 
 	double step = 1 / n;
 	mat u(n + 1, n + 1); mat unew(n + 1, n + 1);
-	for (int i = 0; i <= n; i++) {
+	for (int i = 0; i <= n; i++) { // boundary conditions
 		u(i, 0) = unew(i, 0) = u(i, n) = unew(i, n) = u(n, i) = unew(n, i) = 0.0;
 		u(0, i) = unew(0, i) = 1.0;
 	}
@@ -33,7 +33,7 @@ int main() //Main program. Prints result matrix for two different times.
 		for (int j = 1; j < n; j++) {
 			//  initial condition
 			u(i, j) = 0.0;
-			//  intitialise the new vector 
+			//  intitialise the new matrix
 			unew(i, j) = 0.0;
 		}
 	}
